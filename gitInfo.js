@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = "Git is what we use to help us keep our work organized, used to compare multiple submissions of a project so we can see the differences made between work. Also a way for us to save our work."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = "GitHub is a remote location to save our projects so if our 'dog' eats our computer, we will still have our saved work. It is also a way for us to collaborate with other people on a project"
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+const init = {
+    description: "Initializes a local repository",
+    code: "git init"
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+const clone = {
+    description: "coppies and existing repository in a new location"
+    code: "git clone (location)"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+const status = {
+    description: "'Prints status' - lets you know if there are added changes that need to be committed",
+    code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+const add ={
+    description: "Saves the current state of your project. preps to commit",
+    code: "git add . (or) git add (fileName)"
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+const commit = {
+    description: "saves the current added snapshot of your work in your history. after the commit is made, it won't be changed",
+    code: "git commit -m '(your commit message)'"
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +89,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+const push = {
+    description: "moved your commited document(s) up to a gitHub or other remote repository",
+    code: "git remote add origin (gitHub repository link), git branch -M main, git push -u origin main <= First git push, after you can just say git push "
+}
