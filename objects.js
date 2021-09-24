@@ -14,8 +14,18 @@
   For example: 'Hello! My name is Rubber Duck and I live in Utah"
 */
 
-//CODE HERE
+const me = {
+  firstName: "Owen",
+  state: "Utah",
+  age: 20,
+  // greeter: sayHello()
+}
 
+
+function sayHello(arr) {
+  // return `Hello, My name is ${arr.firstName} and I live in ${arr.state}`
+}
+// console.log(greetingMe)
 
 
 
@@ -44,4 +54,33 @@
   }
 */
 
-//CODE HERE
+
+function carFactory(make, model, year) {
+  make.toString()
+  model.toString()
+  Number(year)
+  function newCar(make, model, year){
+    const car1 = {
+      make: make,
+      model: model,
+      year: year,
+    }
+    return car1
+  }
+  function oldCar(make, model, year){
+    const car2 = {
+      make: make,
+      model: model,
+      year: year,
+    }
+    return car2
+  }
+  if (year > 2018) {
+    newCar()
+  } else {
+    oldCar()
+  }
+  return car1 && car2
+}
+
+console.log(carFactory('Toyota', 'Tacoma', '2020'))
