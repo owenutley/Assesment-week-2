@@ -93,3 +93,5 @@ const push = {
     description: "moved your commited document(s) up to a gitHub or other remote repository",
     code: "git remote add origin (gitHub repository link), git branch -M main, git push -u origin main <= First git push, after you can just say git push "
 }
+
+// Just writing in this text so I can commit this document again

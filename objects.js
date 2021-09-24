@@ -49,5 +49,23 @@ me.greeter()
   }
 */
 
+function carFactory(make, model, year) {
+make.toString()
+model.toString()
+Number(year)
 
+const car = {
+  make: make,
+  model: model,
+  year: year, 
+  isNew: false
+}
 
+if (year > 2018) {
+  car.isNew = true
+}
+
+return car
+}
+
+console.log(carFactory("Toyota", "Tacoma", 2019))
