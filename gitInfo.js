@@ -45,7 +45,7 @@ const init = {
 */
 
 const clone = {
-    description: "coppies and existing repository in a new location"
+    description: "coppies and existing repository in a new location",
     code: "git clone (location)"
 }
 
