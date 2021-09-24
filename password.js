@@ -8,7 +8,7 @@ const reader = readline.createInterface({
   output: process.stdout,
 })
 
-reader.question("Enter a password you want to validate *NOTE 'make sure your password is at least 10 characters long ", function(input){
+reader.question("Enter a password you want to validate *NOTE 'make sure your password is at least 10 characters long' ", function(input){
     stringToken = input.toString()
     stringToken = input.trim(' ')
 
